@@ -7,7 +7,7 @@ from torch import nn
 import time
 
         
-class nnUNetTrainerV2_S6_D3_W32_FLARE(nnUNetTrainerV2):
+class nnUNetTrainerV2_FLARE_Big(nnUNetTrainerV2):
     def initialize_network(self):
         self.conv_per_stage = 3
         self.base_num_features = 32
@@ -41,7 +41,7 @@ class nnUNetTrainerV2_S6_D3_W32_FLARE(nnUNetTrainerV2):
         self.data_aug_params["do_elastic"] = True
 
 
-class nnUNetTrainerV2_S5_D2_W16_FLARE(nnUNetTrainerV2):
+class nnUNetTrainerV2_FLARE_Small(nnUNetTrainerV2):
     def initialize_network(self):
         self.conv_per_stage = 2
         self.stage_num = 5
