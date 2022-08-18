@@ -1,2 +1,2 @@
-# Exploring nnUNet for Pseudo Labeling and Efficient Inference for FLARE22 Challenge
+# Solution of team blackbean for FLARE22 Challenge
 Built upon [MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet), this repository provides the solution of team blackbean for FLARE22 Challenge.
