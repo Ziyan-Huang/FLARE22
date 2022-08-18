@@ -42,7 +42,7 @@ done
 nnUNet_predict -i INPUTS_FOLDER -o OUTPUTS_FOLDER  -t 22  -tr nnUNetTrainerV2_FLARE_Big  -m 3d_fullres  -p nnUNetPlansFLARE22Big  --all_in_gpu True 
 ```
 
-### 1.6. Iterative Training Models and Generate Pseudo Labels
+### 1.6. Iteratively Train Models and Generate Pseudo Labels
 - Give a new TaskID (e.g. Task023) and organize the 50 Labeled Data and 2000 Pseudo Labeled Data as above.
 - Conduct automatic preprocessing using nnUNet as above.
   ```
@@ -71,7 +71,7 @@ Here we use the plan designed for small nnUNet.
 ```
 nnUNet_plan_and_preprocess -t 26 -pl3d ExperimentPlanner3D_FLARE22Small -pl2d None
 ```
-### 3.4. Training small nnUNet by all training data
+### 3.4. Train small nnUNet on all training data
 ```
 nnUNet_train 3d_fullres nnUNetTrainerV2_FLARE_Small 26 all -p nnUNetPlansFLARE22Small
 ```
