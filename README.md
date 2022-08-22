@@ -1,5 +1,5 @@
 # Solution of Team Blackbean for FLARE22 Challenge
-Built upon [MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet), this repository provides the solution of team blackbean for [MICCAI FLARE22](https://flare22.grand-challenge.org/) Challenge. The details of our method are described in our paper [Exploring nnUNet for Pseudo Labeling and Efficient Sliding Window Inference](https://openreview.net/forum?id=FNMbe2vLvev). 
+Built upon [MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet), this repository provides the solution of team blackbean for [MICCAI FLARE22](https://flare22.grand-challenge.org/) Challenge. The details of our method are described in our paper [Revisiting nnUNet for Pseudo Labeling and Efficient Sliding Window Inference](https://openreview.net/forum?id=FNMbe2vLvev). 
 
 You can reproduce our method as follows step by step:
 
