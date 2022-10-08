@@ -56,6 +56,9 @@ nnUNet_predict -i INPUTS_FOLDER -o OUTPUTS_FOLDER  -t 22  -tr nnUNetTrainerV2_FL
 
 ## 2. Filter Low-quality Pseudo Labels
 We compare Pseudo Labels in different rounds and filter out the labels with high variants.
+```
+select.ipynb
+```
 
 ## 3. Train Small nnUNet 
 ### 3.1. Copy the following files in this repo to your nnUNet environment.
