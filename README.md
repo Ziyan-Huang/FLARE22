@@ -1,5 +1,8 @@
 # Solution of Team Blackbean for FLARE22 Challenge
-Built upon [MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet), this repository provides the solution of team blackbean for [MICCAI FLARE22](https://flare22.grand-challenge.org/) Challenge. The details of our method are described in our paper [Revisiting nnUNet for Pseudo Labeling and Efficient Sliding Window Inference](https://openreview.net/forum?id=FNMbe2vLvev). 
+**Revisiting nnU-Net for Iterative Pseudo Labeling and Efficient Sliding Window Inference** \
+*Ziyan Huang, Haoyu Wang, Jin Ye, Jingqi Niu, Can Tu, Yuncheng Yang, Shiyi Du, Zhongying Deng, Lixu Gu, and Junjun He* \
+
+Built upon [MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet), this repository provides the solution of team blackbean for [MICCAI FLARE22](https://flare22.grand-challenge.org/) Challenge. The details of our method are described in our [paper](https://openreview.net/forum?id=FNMbe2vLvev). 
 
 You can reproduce our method as follows step by step:
 
@@ -86,3 +89,15 @@ nnUNet_predict -i INPUT_FOLDER  -o OUTPUT_FOLDER  -t 26  -p nnUNetPlansFLARE22Sm
  -tr nnUNetTrainerV2_FLARE_Small  -f all  --mode fastest --disable_tta
 ```
 
+# Citations
+If you find this repository useful, please consider citing our paper:
+```
+@incollection{huang2023revisiting,
+  title={Revisiting nnU-Net for Iterative Pseudo Labeling and Efficient Sliding Window Inference},
+  author={Huang, Ziyan and Wang, Haoyu and Ye, Jin and Niu, Jingqi and Tu, Can and Yang, Yuncheng and Du, Shiyi and Deng, Zhongying and Gu, Lixu and He, Junjun},
+  booktitle={Fast and Low-Resource Semi-supervised Abdominal Organ Segmentation: MICCAI 2022 Challenge, FLARE 2022, Held in Conjunction with MICCAI 2022, Singapore, September 22, 2022, Proceedings},
+  pages={178--189},
+  year={2023},
+  publisher={Springer}
+}
+```
