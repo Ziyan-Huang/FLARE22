@@ -4,6 +4,12 @@
 
 Built upon [MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet), this repository provides the solution of team blackbean for [MICCAI FLARE22](https://flare22.grand-challenge.org/) Challenge. The details of our method are described in our [paper](https://openreview.net/forum?id=FNMbe2vLvev). 
 
+You can download our nnU-Net organized trained model at https://pan.baidu.com/s/1xB6Tgl_330rg5ru0wHssJw?pwd=rl48
+
+You can get our docker by 
+```
+docker pull miccaiflare/blackbean:latest
+```
 You can reproduce our method as follows step by step:
 
 ## Environments and Requirements:
