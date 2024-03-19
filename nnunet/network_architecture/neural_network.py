@@ -292,7 +292,7 @@ class SegmentationNetwork(NeuralNetwork):
             actual_step_size = (image_size[1] - patch_size[1]) / 2
             steps_here = [int(np.round(actual_step_size * i)) for i in range(3)]
         else:
-            steps_here = [0]
+            steps_here = [0,0,0]
         steps.append(steps_here)
         
         # 准备 x 轴的 steps，step个数固定为3
@@ -302,7 +302,7 @@ class SegmentationNetwork(NeuralNetwork):
             actual_step_size = (image_size[2] - patch_size[2]) / 2
             steps_here = [int(np.round(actual_step_size * i)) for i in range(3)]
         else:
-            steps_here = [0]
+            steps_here = [0,0,0]
         steps.append(steps_here)
 
 
