@@ -4,6 +4,8 @@
 
 Built upon [MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet), this repository provides the solution of team blackbean for [MICCAI FLARE22](https://flare22.grand-challenge.org/) Challenge. The details of our method are described in our [paper](https://openreview.net/forum?id=FNMbe2vLvev). 
 
+我们方法的中文介绍在知乎 https://zhuanlan.zhihu.com/p/657611778
+
 Our trained model is available at Our trained model is available at [RESULTS_FOLDER](./RESULTS_FOLDER)
 
 You can get our docker by 
