@@ -410,6 +410,7 @@ class SegmentationNetwork(NeuralNetwork):
         else:
             all_in_gpu = True
 
+        all_in_gpu = False # for cpu only
         if all_in_gpu:
             # If we run the inference in GPU only (meaning all tensors are allocated on the GPU, this reduces
             # CPU-GPU communication but required more GPU memory) we need to preallocate a few things on GPU
