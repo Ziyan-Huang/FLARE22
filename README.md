@@ -1,3 +1,7 @@
+# Update
+We fix a bug of our docker and use almost the same docker for FLARE24 Task2 and you can download it at: 
+[BaiduNet Disk](https://pan.baidu.com/s/1J9_RKtHGIPhz_zIbRsF9Jw?pwd=8yru))
+
 # Solution of Team Blackbean for FLARE22 Challenge
 **Revisiting nnU-Net for Iterative Pseudo Labeling and Efficient Sliding Window Inference** \
 *Ziyan Huang, Haoyu Wang, Jin Ye, Jingqi Niu, Can Tu, Yuncheng Yang, Shiyi Du, Zhongying Deng, Lixu Gu, and Junjun He* \
